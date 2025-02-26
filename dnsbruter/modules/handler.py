@@ -19,7 +19,7 @@ try:
     from dnsbruter.modules.cli.cli import cli
     from dnsbruter.modules.core.core import Dnsbruter
     from dnsbruter.modules.help.help import help
-    from dnsbruter.modules.extender.extender import extender
+    #from dnsbruter.modules.extender.extender import extender
     from dnsbruter.modules.logger.logger import logger,bannerlog
     from dnsbruter.modules.utils.utils import Return_reader,check_perm
     from dnsbruter.modules.version.version import version
