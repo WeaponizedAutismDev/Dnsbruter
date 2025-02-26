@@ -1,7 +1,7 @@
 from colorama import Fore,Style
 import asyncio
 import sys
-import uvloop
+import winuvloop
 
 red =  Fore.RED
 green = Fore.GREEN
@@ -149,7 +149,7 @@ def Main():
         if sys.platform.startswith('win'):
             asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
         else:
-            asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+            asyncio.set_event_loop_policy(winuvloop.EventLoopPolicy())
         loop = asyncio.get_event_loop()
         loop.run_until_complete(handler())
     except (KeyboardInterrupt, asyncio.CancelledError):

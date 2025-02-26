@@ -7,4 +7,4 @@ colorama>=0.4.4
 Requests>=2.32.3
 setuptools>=68.1.2
 setuptools>=75.2.0
-uvloop>=0.21.0
+winuvloop>=0.2.0

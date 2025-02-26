@@ -22,7 +22,7 @@ setup(
         'colorama>=0.4.4',
         'Requests>=2.32.3',
         'setuptools>=68.1.2',
-        'uvloop>=0.21.0'
+        'winuvloop>=0.2.0'
     ],
     entry_points={
         'console_scripts': [
