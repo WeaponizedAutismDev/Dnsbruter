@@ -28,7 +28,7 @@ except ImportError as e:
     print(f"[{bold}{blue}INFO{reset}]: {bold}{white}If you are encountering this issue more than a time please report the issues in Dnsbruter Github page{reset}")
     exit(1)
 
-extender()
+#extender()
 args = cli()
 banner = banner()
 
